@@ -1,0 +1,37 @@
+------------------------------------------------------------
+User: echarles  Mon Jun 14 16:33:07 PDT 2010
+evtUtils
+
+Log Message:
+create
+
+Status:
+
+Vendor Tag:	evtUtils
+Release Tags:	GLAST
+		v0
+		
+N evtUtils/.cvsignore
+N evtUtils/SConscript
+N evtUtils/xml/.cvsignore
+N evtUtils/xml/EvtClassDefs_Test.xml
+N evtUtils/evtUtils/EventMap.h
+N evtUtils/evtUtils/EventCategory.h
+N evtUtils/evtUtils/EventClass.h
+I evtUtils/evtUtils/EvtUtils_rootcint.cxx
+I evtUtils/evtUtils/EvtUtils_rootcint.h
+N evtUtils/evtUtils/LinkDef.h
+N evtUtils/evtUtils/.cvsignore
+N evtUtils/doc/.cvsignore
+N evtUtils/cmt/requirements
+N evtUtils/cmt/.cvsignore
+N evtUtils/apps/MakeEventClass.cxx
+N evtUtils/apps/.cvsignore
+N evtUtils/src/EventCategory.cxx
+N evtUtils/src/EventClass.cxx
+N evtUtils/src/.cvsignore
+N evtUtils/src/EventMap.cxx
+
+No conflicts created by this import
+
+    *
