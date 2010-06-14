@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Mon Jun 14 16:38:38 PDT 2010
+evtUtils/doc
+
+Added Files:
+	release.notes 
+Log Message:
+added doc/release.notes, fixed caps in *.cxx files
+    *
+------------------------------------------------------------
+User: echarles  Mon Jun 14 16:38:38 PDT 2010
 evtUtils/apps
 
 Modified Files:
