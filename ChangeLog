@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Mon Jun 14 16:38:39 PDT 2010
+evtUtils/src
+
+Modified Files:
+	EventCategory.cxx EventClass.cxx EventMap.cxx 
+Log Message:
+added doc/release.notes, fixed caps in *.cxx files
+    *
+------------------------------------------------------------
+User: echarles  Mon Jun 14 16:38:39 PDT 2010
 evtUtils/evtUtils
 
 Modified Files:
