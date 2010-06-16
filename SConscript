@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Id: SConscript,v 1.1.1.1 2010/06/11 23:04:35 echarles Exp $
+# $Id: SConscript,v 1.1.1.1 2010/06/14 23:33:06 echarles Exp $
 # Authors: Eric Charles <echarles@slac.stanford.edu>
 # Version: evtUtils-00-00-00
 Import('baseEnv')
@@ -26,7 +26,4 @@ progEnv.Tool('registerTargets',
              package = 'evtUtils',
              rootcintSharedCxts = [[evtUtils, libEnv]], 
              testAppsCxts = [evtUtilsApp_MakeEventClass,progEnv],
-             includes = listFiles(['evtUtils/*.h'])
-             
-
-
+             includes = listFiles(['evtUtils/*.h']))
