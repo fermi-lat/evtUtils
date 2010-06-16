@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jun 16 13:44:41 PDT 2010
+evtUtils
+
+Modified Files:
+	SConscript 
+Added Files:
+	evtUtilsLib.py 
+Log Message:
+add evtUtilsLib.py for SCons builds
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-00-00, operation: add
 Package: evtUtils
