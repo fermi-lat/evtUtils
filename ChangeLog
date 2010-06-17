@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Thu Jun 17 14:52:01 PDT 2010
+evtUtils/evtUtils
+
+Modified Files:
+	EventClass.h 
+Log Message:
+Added program to makeHtmlDoc of xml file
+    *
+------------------------------------------------------------
+User: echarles  Thu Jun 17 14:52:01 PDT 2010
 evtUtils
 
 Modified Files:
