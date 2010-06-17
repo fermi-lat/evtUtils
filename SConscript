@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Id: SConscript,v 1.3 2010/06/16 21:09:36 jchiang Exp $
+# $Id: SConscript,v 1.4 2010/06/17 00:19:31 echarles Exp $
 # Authors: Eric Charles <echarles@slac.stanford.edu>
 # Version: evtUtils-00-00-02
 Import('baseEnv')
@@ -21,6 +21,7 @@ evtUtils = libEnv.SharedLibrary('evtUtils', listFiles(['src/*.cxx'])+['evtUtils/
 progEnv.Tool('evtUtilsLib')
 
 evtUtilsApp_MakeEventClass = progEnv.Program('MakeEventClass', ['apps/MakeEventClass.cxx'])
+evtUtilsApp_MakeEventClassHtml = progEnv.Program('MakeEventClassHtml', ['apps/MakeEventClassHtml.cxx'])
 
 progEnv.Tool('registerTargets',
              package = 'evtUtils',
