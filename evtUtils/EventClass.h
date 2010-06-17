@@ -4,7 +4,7 @@
 @brief header file for EventClass.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/users/echarles/evtUtils/evtUtils/EventClass.h,v 1.1.1.1 2010/06/11 23:04:35 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventClass.h,v 1.1.1.1 2010/06/14 23:33:06 echarles Exp $
 */
 
 
@@ -35,6 +35,9 @@ namespace evtUtils {
     
     static EventClass* loadFromXml(const std::string& fileName);
     
+    static bool writeToHtml(EventClass& evtClass, 
+			    std::ostream& os);
+
   public:
     
     EventClass()
