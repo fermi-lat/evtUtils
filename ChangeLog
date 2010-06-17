@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Jun 16 17:16:46 PDT 2010
+evtUtils/evtUtils
+
+Modified Files:
+	EventCategory.h 
+Log Message:
+Added access to TTreeFormulae
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-00-01, operation: add
 Package: evtUtils
