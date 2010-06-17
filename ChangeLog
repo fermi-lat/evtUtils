@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Thu Jun 17 14:52:00 PDT 2010
+evtUtils/apps
+
+Added Files:
+	MakeEventClassHtml.cxx 
+Log Message:
+Added program to makeHtmlDoc of xml file
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-00-02, operation: add
 Package: evtUtils
