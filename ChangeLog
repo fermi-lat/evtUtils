@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Jun 16 17:17:26 PDT 2010
+evtUtils/src
+
+Modified Files:
+	EventCategory.cxx 
+Log Message:
+Allow TTree::GetReadEntry() to be < 0, as is the case when writing the tree for the first time
+    *
+------------------------------------------------------------
 User: echarles  Wed Jun 16 17:16:46 PDT 2010
 evtUtils/evtUtils
 
