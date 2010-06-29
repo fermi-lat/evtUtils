@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Tue Jun 29 15:31:21 PDT 2010
+evtUtils/src
+
+Modified Files:
+	EventCategory.cxx EventClass.cxx EventMap.cxx 
+Log Message:
+Removed ClassDef and ClassImp stuff, switched to regular library
+    *
+------------------------------------------------------------
+User: echarles  Tue Jun 29 15:31:21 PDT 2010
 evtUtils/evtUtils
 
 Modified Files:
