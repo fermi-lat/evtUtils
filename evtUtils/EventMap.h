@@ -4,7 +4,7 @@
 @brief header file for EventMap.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/users/echarles/evtUtils/evtUtils/EventMap.h,v 1.1.1.1 2010/06/11 23:04:35 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventMap.h,v 1.1.1.1 2010/06/14 23:33:06 echarles Exp $
 */
 
 #ifndef EventUtils_EventMap_h
@@ -78,8 +78,8 @@ namespace evtUtils {
     
     std::map<std::string,EventCategory*>    m_nameMap;   //!
     std::map<unsigned,EventCategory*>       m_indexMap;  //!
-
-    ClassDef(EventMap,0) // Maps a set of cuts defined in xml to a bit field
+    
+    //ClassDef(EventMap,0) // Maps a set of cuts defined in xml to a bit field
     
   };
 

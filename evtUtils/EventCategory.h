@@ -6,7 +6,7 @@
 @brief header file for EventCategory.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventCategory.h,v 1.1.1.1 2010/06/14 23:33:06 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventCategory.h,v 1.2 2010/06/17 00:16:46 echarles Exp $
 */
 
 #include <Rtypes.h>
@@ -91,7 +91,7 @@ namespace evtUtils {
     TTreeFormula* m_shortFormula;   //!
     TTreeFormula* m_fullFormula;    //!
     
-    ClassDef(EventCategory,0) // Implements a single cut defined in xml
+    //ClassDef(EventCategory,0) // Implements a single cut defined in xml
 
   };
 
