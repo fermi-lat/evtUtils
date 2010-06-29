@@ -4,7 +4,7 @@
 @brief header file for EventClass.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventClass.h,v 1.1.1.1 2010/06/14 23:33:06 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventClass.h,v 1.2 2010/06/17 21:52:01 echarles Exp $
 */
 
 
@@ -86,7 +86,7 @@ namespace evtUtils {
     std::map<std::string,EventMap*>        m_evtMap;     //!
     TTree*                                 m_cachedTree; //!
 
-    ClassDef(EventClass,0) // Keeps track of a set of maps of cuts
+    //ClassDef(EventClass,0) // Keeps track of a set of maps of cuts
     
   };
 
