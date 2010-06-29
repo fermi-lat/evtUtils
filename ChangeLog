@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Jun 29 15:31:36 PDT 2010
+evtUtils/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Removed ClassDef and ClassImp stuff, switched to regular library
+    *
+------------------------------------------------------------
 User: echarles  Tue Jun 29 15:31:21 PDT 2010
 evtUtils/src
 
