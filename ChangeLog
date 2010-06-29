@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Mon Jun 28 19:39:50 PDT 2010
+evtUtils/xml
+
+Modified Files:
+	EvtClassDefs_P7V3.xml 
+Log Message:
+Fix up EvtClassDefs_P7V3 to cast to Int before checking bit mask, also fix cmt/requirements
+    *
+------------------------------------------------------------
+User: echarles  Mon Jun 28 19:39:50 PDT 2010
 evtUtils/cmt
 
 Modified Files:
