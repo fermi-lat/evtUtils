@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Mon Jun 28 17:58:28 PDT 2010
+evtUtils/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Make it compile on rh4
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-00, operation: add
 Package: evtUtils
