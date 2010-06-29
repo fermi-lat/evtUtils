@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Jun 29 15:31:21 PDT 2010
+evtUtils/evtUtils
+
+Modified Files:
+	EventCategory.h EventClass.h EventMap.h 
+Log Message:
+Removed ClassDef and ClassImp stuff, switched to regular library
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-02, operation: add
 Package: evtUtils
