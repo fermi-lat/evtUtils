@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Jul  6 11:53:41 PDT 2010
+evtUtils/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Switch to asking for ROOT instead of RootcintPolicy
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-03, operation: add
 Package: evtUtils
