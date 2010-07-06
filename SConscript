@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Id: SConscript,v 1.8 2010/06/29 02:40:25 echarles Exp $
+# $Id: SConscript,v 1.9 2010/06/29 23:30:27 echarles Exp $
 # Authors: Eric Charles <echarles@slac.stanford.edu>
 # Version: evtUtils-00-01-03
 Import('baseEnv')
@@ -9,15 +9,8 @@ progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
 
 libEnv.Tool('evtUtilsLib', depsOnly = 1)
-evtUtilsRootcint = libEnv.Rootcint('evtUtils/evtUtils_rootcint',                                   
-                                   ['evtUtils/EventCategory.h',
-                                    'evtUtils/EventMap.h',
-                                    'evtUtils/EventClass.h',
-                                    'evtUtils/LinkDef.h'],
-                                   includes = [''])
-libEnv['rootcint_node'] = evtUtilsRootcint
 
-evtUtils = libEnv.SharedLibrary('evtUtils', listFiles(['src/*.cxx'])+['evtUtils/evtUtils_rootcint.cxx'])
+evtUtilsLib = libEnv.SharedLibrary('evtUtils', listFiles(['src/*.cxx']))
 progEnv.Tool('evtUtilsLib')
 
 evtUtilsApp_MakeEventClass = progEnv.Program('MakeEventClass', ['apps/MakeEventClass.cxx'])
@@ -25,6 +18,6 @@ evtUtilsApp_MakeEventClassHtml = progEnv.Program('MakeEventClassHtml', ['apps/Ma
 
 progEnv.Tool('registerTargets',
              package = 'evtUtils',
-             rootcintSharedCxts = [[evtUtils, libEnv]], 
+             libaries = [evtUtilsLib]
              testAppsCxts = [evtUtilsApp_MakeEventClass,progEnv],
              includes = listFiles(['evtUtils/*.h']))
