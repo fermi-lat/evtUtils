@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Jul  9 13:03:51 PDT 2010
+evtUtils
+
+Modified Files:
+	SConscript 
+Log Message:
+corrections so that shared library is built
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-05, operation: add
 Package: evtUtils
