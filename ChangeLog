@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Fri Jul 23 16:27:00 PDT 2010
+evtUtils/xml
+
+Modified Files:
+	EvtClassDefs_P7V3.xml 
+Log Message:
+OR Transient class into all the extended classes
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-06, operation: add
 Package: evtUtils
