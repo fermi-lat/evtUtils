@@ -1,4 +1,35 @@
 ------------------------------------------------------------
+TAG
+Tag name: evtUtils-00-01-07, operation: add
+Package: evtUtils
+User: echarles  Fri Jul 23 16:27:50 2010
+Files:
+  evtUtils/.cvsignore  1.1.1.1
+  evtUtils/evtUtilsLib.py  1.1
+  evtUtils/ChangeLog  1.59
+  evtUtils/SConscript  1.16
+  evtUtils/apps/.cvsignore  1.1.1.1
+  evtUtils/apps/MakeEventClass.cxx  1.2
+  evtUtils/apps/MakeEventClassHtml.cxx  1.1
+  evtUtils/cmt/.cvsignore  1.1.1.1
+  evtUtils/cmt/requirements  1.8
+  evtUtils/doc/.cvsignore  1.1.1.1
+  evtUtils/doc/release.notes  1.11
+  evtUtils/evtUtils/EventCategory.h  1.3
+  evtUtils/evtUtils/.cvsignore  1.2
+  evtUtils/evtUtils/EventMap.h  1.2
+  evtUtils/evtUtils/EventClass.h  1.3
+  evtUtils/evtUtils/LinkDef.h  1.1.1.1
+  evtUtils/src/.cvsignore  1.1.1.1
+  evtUtils/src/EventMap.cxx  1.3
+  evtUtils/src/EventCategory.cxx  1.4
+  evtUtils/src/EventClass.cxx  1.4
+  evtUtils/xml/.cvsignore  1.1.1.1
+  evtUtils/xml/EvtClassDefs_Test.xml  1.2
+  evtUtils/xml/EvtClassDefs_P7V3.xml  1.4
+
+    *
+------------------------------------------------------------
 User: echarles  Fri Jul 23 16:27:39 PDT 2010
 evtUtils/doc
 
