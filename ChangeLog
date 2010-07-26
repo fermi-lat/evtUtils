@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Mon Jul 26 11:21:24 PDT 2010
+evtUtils/xml
+
+Modified Files:
+	EvtClassDefs_P7V3.xml 
+Log Message:
+updated EvtClassDefs_P7V3 to make S2 = oldS2 || transient, etc
+    *
+------------------------------------------------------------
 User: rando  Mon Jul 26 09:17:44 PDT 2010
 evtUtils/xml
 
