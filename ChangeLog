@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 14 09:38:48 PDT 2010
+evtUtils
+
+Modified Files:
+	SConscript evtUtilsLib.py 
+Log Message:
+patch evtUtilsLib.py to include ROOT libs
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-18-03, operation: add
 Package: evtUtils
