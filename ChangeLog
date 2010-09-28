@@ -1,5 +1,36 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-18-04, operation: add
+Package: evtUtils
+User: glastrm  Tue Sep 28 14:53:52 2010
+Files:
+  evtUtils/.cvsignore  1.1.1.1
+  evtUtils/evtUtilsLib.py  1.2
+  evtUtils/ChangeLog  1.69
+  evtUtils/SConscript  1.18
+  evtUtils/apps/.cvsignore  1.1.1.1
+  evtUtils/apps/MakeEventClass.cxx  1.2
+  evtUtils/apps/MakeEventClassHtml.cxx  1.1
+  evtUtils/cmt/.cvsignore  1.1.1.1
+  evtUtils/cmt/requirements  1.9
+  evtUtils/doc/.cvsignore  1.1.1.1
+  evtUtils/doc/release.notes  1.13
+  evtUtils/evtUtils/EventCategory.h  1.3
+  evtUtils/evtUtils/.cvsignore  1.2
+  evtUtils/evtUtils/EventMap.h  1.2
+  evtUtils/evtUtils/EventClass.h  1.3
+  evtUtils/evtUtils/LinkDef.h  1.1.1.1
+  evtUtils/src/.cvsignore  1.1.1.1
+  evtUtils/src/EventMap.cxx  1.3
+  evtUtils/src/EventCategory.cxx  1.4
+  evtUtils/src/EventClass.cxx  1.4
+  evtUtils/xml/.cvsignore  1.1.1.1
+  evtUtils/xml/EvtClassDefs_Test.xml  1.2
+  evtUtils/xml/EvtClassDefs_P7V3.xml  1.6
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: evtUtils-00-01-09, operation: add
 Package: evtUtils
 User: heather  Tue Sep 14 09:39:22 2010
