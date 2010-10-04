@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Mon Oct  4 13:26:23 PDT 2010
+evtUtils/evtUtils
+
+Modified Files:
+	EventClass.h 
+Log Message:
+Strip line breaks from formulae.  This is to allow for long formulae
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-18-04, operation: add
 Package: evtUtils
