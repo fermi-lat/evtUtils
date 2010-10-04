@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Mon Oct  4 13:27:05 PDT 2010
+evtUtils/apps
+
+Modified Files:
+	MakeEventClass.cxx 
+Log Message:
+exit from apps/MakeEventClass.cxx if wrong number of arguements
+    *
+------------------------------------------------------------
 User: echarles  Mon Oct  4 13:26:24 PDT 2010
 evtUtils/src
 
