@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Mon Oct  4 13:26:24 PDT 2010
+evtUtils/src
+
+Modified Files:
+	EventClass.cxx 
+Log Message:
+Strip line breaks from formulae.  This is to allow for long formulae
+    *
+------------------------------------------------------------
 User: echarles  Mon Oct  4 13:26:23 PDT 2010
 evtUtils/evtUtils
 
