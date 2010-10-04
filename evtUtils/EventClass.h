@@ -4,7 +4,7 @@
 @brief header file for EventClass.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventClass.h,v 1.2 2010/06/17 21:52:01 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventClass.h,v 1.3 2010/06/29 22:31:21 echarles Exp $
 */
 
 
@@ -37,6 +37,8 @@ namespace evtUtils {
     
     static bool writeToHtml(EventClass& evtClass, 
 			    std::ostream& os);
+
+    static void StripLineBreaks(std::string& fromString);
 
   public:
     
