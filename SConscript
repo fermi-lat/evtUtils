@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Id: SConscript,v 1.18 2010/09/14 16:38:48 heather Exp $
+# $Id: SConscript,v 1.19 2010/10/04 20:28:16 echarles Exp $
 # Authors: Eric Charles <echarles@slac.stanford.edu>
 # Version: evtUtils-00-01-10
 Import('baseEnv')
@@ -14,10 +14,11 @@ evtUtilsLib = libEnv.SharedLibrary('evtUtils', listFiles(['src/*.cxx']))
 progEnv.Tool('evtUtilsLib')
 
 evtUtilsApp_MakeEventClass = progEnv.Program('MakeEventClass', ['apps/MakeEventClass.cxx'])
+evtUtilsApp_MakeEventClassPyDict = progEnv.Program('MakeEventClassPyDict', ['apps/MakeEventClassPyDict.cxx'])
 evtUtilsApp_MakeEventClassHtml = progEnv.Program('MakeEventClassHtml', ['apps/MakeEventClassHtml.cxx'])
 
 progEnv.Tool('registerTargets',
              package = 'evtUtils',
              libraryCxts = [[evtUtilsLib, libEnv]],
-             testAppsCxts = [evtUtilsApp_MakeEventClass,progEnv],
+             testAppsCxts = [evtUtilsApp_MakeEventClass,evtUtilsApp_MakeEventClassPyDict,evtUtilsApp_MakeEventClassHtml,progEnv],
              includes = listFiles(['evtUtils/*.h']))
