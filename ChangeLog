@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Oct  5 16:04:00 PDT 2010
+evtUtils/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+added MakeEventClassPyDict to cmt/requirements and SConscript
+    *
+------------------------------------------------------------
 User: echarles  Tue Oct  5 16:03:30 PDT 2010
 evtUtils/evtUtils
 
