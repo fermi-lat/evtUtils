@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Oct  5 16:03:29 PDT 2010
+evtUtils/src
+
+Modified Files:
+	EventCategory.cxx EventClass.cxx EventMap.cxx 
+Log Message:
+Included AliasDict
+    *
+------------------------------------------------------------
 User: echarles  Tue Oct  5 16:02:49 PDT 2010
 evtUtils/apps
 
