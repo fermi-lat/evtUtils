@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Oct  5 16:02:49 PDT 2010
+evtUtils/src
+
+Added Files:
+	AliasDict.cxx 
+Log Message:
+Added AliasDict and apps/MakeEventClassPyDict.cxx
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-10, operation: add
 Package: evtUtils
