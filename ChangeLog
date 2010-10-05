@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Oct  5 16:03:30 PDT 2010
+evtUtils/evtUtils
+
+Modified Files:
+	EventCategory.h EventClass.h EventMap.h LinkDef.h 
+Log Message:
+Included AliasDict
+    *
+------------------------------------------------------------
 User: echarles  Tue Oct  5 16:03:29 PDT 2010
 evtUtils/src
 
