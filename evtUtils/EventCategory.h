@@ -6,7 +6,7 @@
 @brief header file for EventCategory.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventCategory.h,v 1.2 2010/06/17 00:16:46 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventCategory.h,v 1.3 2010/06/29 22:31:21 echarles Exp $
 */
 
 #include <Rtypes.h>
@@ -77,7 +77,10 @@ namespace evtUtils {
     inline const std::string& getFullCut() const { return m_fullCut; }
     inline const std::string& getComment() const { return m_comment; }
     inline unsigned getBit() const { return m_bit; }
-    
+        
+    void writePythonDict(std::ostream& os);
+
+
   private:
     
     EventReturnCode evaluateFormula(TTreeFormula*) const;

@@ -4,7 +4,7 @@
 @brief header file for EventMap.cxx
 @author Eric Charles
 
-$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventMap.h,v 1.1.1.1 2010/06/14 23:33:06 echarles Exp $
+$Header: /nfs/slac/g/glast/ground/cvs/evtUtils/evtUtils/EventMap.h,v 1.2 2010/06/29 22:31:21 echarles Exp $
 */
 
 #ifndef EventUtils_EventMap_h
@@ -67,6 +67,8 @@ namespace evtUtils {
 
     UInt_t* getShortMapPtr() { return &m_shortMap; }
     UInt_t* getFullMapPtr() { return &m_fullMap; }
+
+    void writePythonDict(std::ostream& os, const std::string& indent, bool firstMap = false);
 
   private:
     
