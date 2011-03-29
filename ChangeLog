@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Mar 29 03:01:06 PDT 2011
+evtUtils/src
+
+Modified Files:
+	EventClass.cxx EventMap.cxx 
+Log Message:
+fix up pyDict generation
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-22-00, operation: add
 Package: evtUtils
