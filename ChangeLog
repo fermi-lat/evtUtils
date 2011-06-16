@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jun 16 09:30:17 PDT 2011
+evtUtils/xml
+
+Added Files:
+	EvtClassDefs_P7V6.xml 
+Log Message:
+added EvtClassDefs_V7P6.xml in preparation for new L1Proc P7 version of GR
+    *
+------------------------------------------------------------
+User: heather  Thu Jun 16 09:30:17 PDT 2011
 evtUtils/doc
 
 Modified Files:
