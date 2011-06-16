@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 16 10:07:39 PDT 2011
+evtUtils
+
+Modified Files:
+	SConscript 
+Log Message:
+update SConscript version
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-01-11, operation: add
 Package: evtUtils
