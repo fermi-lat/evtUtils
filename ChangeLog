@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 16 09:30:17 PDT 2011
+evtUtils/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+added EvtClassDefs_V7P6.xml in preparation for new L1Proc P7 version of GR
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 16 09:30:16 PDT 2011
 evtUtils/cmt
 
