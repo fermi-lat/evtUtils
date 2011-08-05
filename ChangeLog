@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Aug  5 10:37:43 PDT 2011
+evtUtils/doc
+
+Modified Files:
+      Tag: GlastReleasev17r35p23
+	release.notes 
+Log Message:
+set up EVTUTILSXMLPATH
+    *
+------------------------------------------------------------
+User: heather  Fri Aug  5 10:37:43 PDT 2011
 evtUtils/cmt
 
 Modified Files:
