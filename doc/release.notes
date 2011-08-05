@@ -4,6 +4,7 @@
  @verbatim
  @endverbatim
 */
+ 
  evtUtils-00-00-01 16-Jun-2010 jchiang add evtUtilsLib.py for SCons builds
  evtUtils-00-00-02 16-Jun-2010 echarles Fix check on GetReadEntry(), which is not appropriate when writing tree for first time
  evtUtils-00-01-00 17-Jun-2010 echarles Added app to make html doc from xml definitions, added p7v3 xml class defs
@@ -18,3 +19,4 @@
  evtUtils-00-01-09 14-Sep-2010 hmk      patch evtUtilsLib.py to link against ROOT libs
  evtUtils-00-01-10 04-Oct-2010 echarles Strip line breaks from formulae to allow for formating long formualae in the xml file
  evtUtils-00-01-11 16-Jun-2011 hmk       add in EvtClassDefs_V7P6.xml from evtClassDefs package
+ evtUtils-00-01-11-gr01 05-Aug-2011 hmk P7 branch to set up EVTUTILSXMLPATH
