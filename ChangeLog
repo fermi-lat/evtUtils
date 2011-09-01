@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-03-06, operation: add
+Package: evtUtils
+User: heather  Thu Sep  1 11:31:22 2011
+Files:
+  evtUtils/.cvsignore  1.1.1.1
+  evtUtils/evtUtilsLib.py  1.2
+  evtUtils/ChangeLog  1.101
+  evtUtils/SConscript  1.21.6.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-05, operation: add
 Package: evtUtils
 User: heather  Thu Aug 25 12:53:53 2011
