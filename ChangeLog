@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp19, operation: add
 Package: evtUtils
+User: heather  Thu Mar 15 12:37:10 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp19, operation: add
+Package: evtUtils
 User: heather  Thu Mar 15 11:39:13 2012
 Files:
   evtUtils/.cvsignore  1.1.1.1
