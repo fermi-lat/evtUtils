@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 21 14:22:32 PDT 2012
+evtUtils/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+merge in xml file handling from L1proc branch
+    *
+------------------------------------------------------------
 User: heather  Tue Aug 21 14:22:31 PDT 2012
 evtUtils
 
