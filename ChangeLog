@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 21 14:22:31 PDT 2012
+evtUtils
+
+Modified Files:
+	SConscript 
+Log Message:
+merge in xml file handling from L1proc branch
+    *
+------------------------------------------------------------
 TAG
 Tag name: evtUtils-00-02-00, operation: add
 Package: evtUtils
