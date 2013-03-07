@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Mar  6 16:50:57 PST 2013
+evtUtils/xml
+
+Added Files:
+	EvtClassDefs_P7REP.xml 
+Log Message:
+Added xml/EvtClassDefs_P7REP.xml
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-31-02, operation: add
 Package: evtUtils
