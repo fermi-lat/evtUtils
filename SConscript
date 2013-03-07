@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Id: SConscript,v 1.23 2012/08/20 18:57:51 jrb Exp $
+# $Id: SConscript,v 1.24 2012/08/21 21:22:31 heather Exp $
 # Authors: Eric Charles <echarles@slac.stanford.edu>
-# Version: evtUtils-00-02-01
+# Version: evtUtils-00-02-02
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
