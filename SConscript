@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Id: SConscript,v 1.24 2012/08/21 21:22:31 heather Exp $
+# $Id: SConscript,v 1.25 2013/03/07 00:54:36 echarles Exp $
 # Authors: Eric Charles <echarles@slac.stanford.edu>
 # Version: evtUtils-00-02-02
 Import('baseEnv')
@@ -21,5 +21,5 @@ progEnv.Tool('registerTargets',
              package = 'evtUtils',
              libraryCxts = [[evtUtilsLib, libEnv]],
              xml = listFiles(['xml/*.xml']),
-             testAppsCxts = [evtUtilsApp_MakeEventClass,evtUtilsApp_MakeEventClassPyDict,evtUtilsApp_MakeEventClassHtml,progEnv],
+             testAppCxts = [[evtUtilsApp_MakeEventClass,evtUtilsApp_MakeEventClassPyDict,evtUtilsApp_MakeEventClassHtml,progEnv]],
              includes = listFiles(['evtUtils/*.h']))
