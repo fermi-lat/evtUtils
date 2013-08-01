@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: mdwood  Thu Aug  1 00:18:34 PDT 2013
+evtUtils/xml
+
+Added Files:
+	EvtClassDefs_P8.xml 
+Log Message:
+Comitting first version of pass8 event class definition file.
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-09-02, operation: add
 Package: evtUtils
