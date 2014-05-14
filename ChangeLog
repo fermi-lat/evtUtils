@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: mdwood  Tue May 13 21:19:26 PDT 2014
+evtUtils/xml
+
+Added Files:
+	EvtClassDefs_P8V1.xml 
+Log Message:
+Committing new P8 class definition file for P301 processing.
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-09-09, operation: add
 Package: evtUtils
