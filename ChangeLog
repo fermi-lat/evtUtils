@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: mdwood  Thu May 15 14:46:56 PDT 2014
+evtUtils/xml
+
+Modified Files:
+	EvtClassDefs_P8V1.xml 
+Log Message:
+Fixed typos in transient class definitions for P301.
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-09-10, operation: add
 Package: evtUtils
