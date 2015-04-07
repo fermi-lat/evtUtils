@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: carmelo  Tue Apr  7 05:52:06 PDT 2015
+evtUtils/xml
+
+Modified Files:
+	EvtClassDefs_P8R2.xml 
+Log Message:
+P8R2 evt class dev, in sync with evtClassDefs v1.3
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-10-00-03, operation: add
 Package: evtUtils
