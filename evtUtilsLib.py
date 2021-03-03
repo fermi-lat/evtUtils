@@ -6,8 +6,8 @@ def generate(env, **kw):
             env.Tool('findPkgPath', package = 'evtUtils') 
     env.Tool('facilitiesLib')
     env.Tool('xmlBaseLib')
-    env.Tool('addLibrary', library = env['rootLibs'])
-    env.Tool('addLibrary', library = env['rootGuiLibs'])
+    #env.Tool('addLibrary', library = env['rootLibs'])
+    #env.Tool('addLibrary', library = env['rootGuiLibs'])
 
 
 def exists(env):
