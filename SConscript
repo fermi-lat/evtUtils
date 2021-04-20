@@ -8,18 +8,19 @@ Import('packages')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
 
-libEnv.Tool('evtUtilsLib', depsOnly = 1)
+if (libEnv.get('CONTAINERNAME','') != 'ScienceTools_User') and (('BUILD_WITHOUT_ROOT',) not in libEnv.get('CPPDEFINES','')):
+  libEnv.Tool('evtUtilsLib', depsOnly = 1)
 
-evtUtilsLib = libEnv.SharedLibrary('evtUtils', listFiles(['src/*.cxx']))
-progEnv.Tool('evtUtilsLib')
+  evtUtilsLib = libEnv.SharedLibrary('evtUtils', listFiles(['src/*.cxx']))
+  progEnv.Tool('evtUtilsLib')
 
-evtUtilsApp_MakeEventClass = progEnv.Program('MakeEventClass', ['apps/MakeEventClass.cxx'])
-evtUtilsApp_MakeEventClassPyDict = progEnv.Program('MakeEventClassPyDict', ['apps/MakeEventClassPyDict.cxx'])
-evtUtilsApp_MakeEventClassHtml = progEnv.Program('MakeEventClassHtml', ['apps/MakeEventClassHtml.cxx'])
+  evtUtilsApp_MakeEventClass = progEnv.Program('MakeEventClass', ['apps/MakeEventClass.cxx'])
+  evtUtilsApp_MakeEventClassPyDict = progEnv.Program('MakeEventClassPyDict', ['apps/MakeEventClassPyDict.cxx'])
+  evtUtilsApp_MakeEventClassHtml = progEnv.Program('MakeEventClassHtml', ['apps/MakeEventClassHtml.cxx'])
 
-progEnv.Tool('registerTargets',
-             package = 'evtUtils',
-             libraryCxts = [[evtUtilsLib, libEnv]],
-             xml = listFiles(['xml/*.xml']),
-             testAppCxts = [[evtUtilsApp_MakeEventClass,evtUtilsApp_MakeEventClassPyDict,evtUtilsApp_MakeEventClassHtml,progEnv]],
-             includes = listFiles(['evtUtils/*.h']))
+  progEnv.Tool('registerTargets',
+               package = 'evtUtils',
+               libraryCxts = [[evtUtilsLib, libEnv]],
+               xml = listFiles(['xml/*.xml']),
+               testAppCxts = [[evtUtilsApp_MakeEventClass,evtUtilsApp_MakeEventClassPyDict,evtUtilsApp_MakeEventClassHtml,progEnv]],
+               includes = listFiles(['evtUtils/*.h']))
